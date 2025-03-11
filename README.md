@@ -22,6 +22,8 @@ cd DSA-Problems/Arrays/Java
 javac MergeSortedArrays.java
 java MergeSortedArrays
 
+```
+
 📌 Problems and Solutions
 1️⃣ Merge Two Sorted Arrays
 Problem Statement:

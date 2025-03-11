@@ -9,8 +9,7 @@ This repository contains solutions to various Data Structures and Algorithms (DS
   - Python
   - Java *(More to be added!)*
 
-## 🚀 Running the Code
-### JavaScript:
+## 🚀 Running the Code:
 ```sh
 cd DSA-Problems/Arrays/JavaScript
 node merge_sorted_arrays.js
@@ -24,7 +23,3 @@ cd DSA-Problems/Arrays/Python
 python3 merge_sorted_arrays.py
 
 
-🛠 Contributing
-Pick a problem category.
-Add solutions in your preferred language inside its respective folder.
-Submit a pull request! 🚀

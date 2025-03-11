@@ -19,7 +19,3 @@ cd DSA-Problems/Arrays/Python
 python3 merge_sorted_arrays.py
 
 
-cd DSA-Problems/Arrays/Python
-python3 merge_sorted_arrays.py
-
-

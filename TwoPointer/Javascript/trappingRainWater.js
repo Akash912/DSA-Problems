@@ -1,23 +1,23 @@
 /**
- * @param {number[]} height - Array representing the elevation map
+ * @param {number[]} inpArr - Array representing the elevation map
  * @return {number} - Amount of trapped water
  */
-var trap = function(height) {
+var trap = function(inpArr) {
     let left = 0; // Left pointer
-    let right = height.length - 1; // Right pointer
-    let leftMax = height[left]; // Maximum height encountered from the left
-    let rightMax = height[right]; // Maximum height encountered from the right
+    let right = inpArr.length - 1; // Right pointer
+    let leftMax = inpArr[left]; // Maximum inpArr encountered from the left
+    let rightMax = inpArr[right]; // Maximum inpArr encountered from the right
     let water = 0; // Variable to store trapped water
 
     while (left < right) {
         if (leftMax < rightMax) {
             left++; // Move left pointer to the right
-            leftMax = Math.max(leftMax, height[left]); // Update left max height
-            water += leftMax - height[left]; // Calculate trapped water at left
+            leftMax = Math.max(leftMax, inpArr[left]); // Update left max inpArr
+            water = water + leftMax - inpArr[left]; // Calculate trapped water at left
         } else {
             right--; // Move right pointer to the left
-            rightMax = Math.max(rightMax, height[right]); // Update right max height
-            water += rightMax - height[right]; // Calculate trapped water at right
+            rightMax = Math.max(rightMax, inpArr[right]); // Update right max inpArr
+            water = water + rightMax - inpArr[right]; // Calculate trapped water at right
         }
     }
 

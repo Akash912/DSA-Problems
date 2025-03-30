@@ -34,9 +34,6 @@ function maxSubarray(nums) {
         if (currentSum > maxSum) {
             maxSum = currentSum;  // Update max sum if needed
         }
-
-        console.log("currentSum:", currentSum);
-        console.log("maxSum:", maxSum);
     }
 
     return maxSum;

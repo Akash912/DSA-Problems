@@ -33,9 +33,6 @@ def max_subarray(nums):
         if current_sum > max_sum:
             max_sum = current_sum  # Update max sum if needed
 
-        print("current_sum:", current_sum)
-        print("max_sum:", max_sum)
-
     return max_sum
 
 nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
